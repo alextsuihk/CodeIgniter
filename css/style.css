@@ -1,0 +1,130 @@
+body {
+    background: #fdfdfd;
+    margin:  1px;
+    padding: 3px;
+    font-family: arial;
+    font-size: 15px;
+}
+
+table.header, table.footer, table.MenuList, table.EditBox, table.ViewBox, table.ListBox, table.TitleBox, table.NoteBox, table.FavBox
+{
+    border-collapse: collapse;
+    width:1024px;
+    table-layout: fixed; 
+    border:2px solid black;
+}
+
+th
+{
+    background: #cecef6;
+    border:1px solid grey;
+    text-align:center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 1px;
+    padding-right: 1px;
+    font-size: 14px;
+}
+
+td
+{
+    border:1px solid grey;
+    text-align:center;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 1px;
+    font-family: "Arial";
+    font-size: 12.5px;
+}
+
+table.ViewBox td, table.EditBox td, table.NoteBox td
+{
+    text-align:left;
+}
+.footer     { background: #ffffcc; }
+.TitleBox   { background: #ff9999; }
+.EditBox    { background: #cecef6; }
+.ViewBox    { background: #ffffb3; }
+.MenuList   { background: #d9ffcc; }
+.ListBox    { background: #ffffff; }
+.NoteBox    { background: #d5e074; }
+.FavBox     { background: #00cc88; }
+
+table.NoteBox {
+    border-collapse: collapse;
+    width:1024px;
+    table-layout: fixed; 
+    border:2px solid black;
+}
+
+.sort_asc:after {
+    content: " ▲";
+}
+
+.sort_desc:after {
+    content: " ▼";
+}
+
+textarea {
+    width: 1000px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    padding: 5px;
+}
+
+#login_form {
+    width: 300px;
+    background: #f0f0f0 url(../img/login_bg.jpg);
+    border: 1px solid white;
+    margin: 250px auto 0;
+    padding: 1em;
+}
+
+h1,h2,h3,h4,h5 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: arial black, arial;
+    padding: 1px 1px 1px 1px;
+    text-align:center;
+}
+
+input[type=text], input[type=[password] {
+    display: block;
+    margin: 0 0 1em 0;
+    width: 280px;
+    border: 5px;
+    padding: 1em;
+}
+
+input[type=submit], form a {
+    border: none;
+    margin-right: 1em;
+    padding: 6px;
+    text-decoration: none;
+    font-size: 12px;
+    background: #348075;
+    color: white;
+    box-shadow: 0 1px 0 white;  
+}
+
+input[type=submit]:hover, form a:hover {
+    background: #287368;
+    cursor: pointer;
+}
+
+.error {
+    color: #393939;
+    font-size: 15px;
+}
+
+fieldset {
+    width: 300px;
+    margin: auto;
+    margin-bottom: 2em;
+    display: block;
+}
+
+h1 {
+    text-shadow: 0 1px 0 white;   
+}
